@@ -57,7 +57,7 @@ export class App extends Component<{}, State> {
         super(props, state);
 
         this.state = {
-            isDark: false,
+            isDark: true,
             selectedItems: [],
             infoSize: 150,
             tableFilter: {
